@@ -1,0 +1,150 @@
+body, div, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+
+}
+body{
+  background-color: green;
+
+}
+.nav {
+  background: #000;
+  height: 130px;
+  text-align:center;
+  border: 7px solid #6bec20fd;
+}
+.logo {float:left;}
+.nav li {
+  display: inline-block;
+  list-style: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 40px;
+}
+.nav li:hover {
+  display:inline-block;
+  list-style: none;
+  height:30px;
+  line-height: 20px;
+  padding:0 40px;
+  transition: background .3s;
+
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:link {
+  color: white;
+}
+.nav li a:visited {
+  color: #6bec20fd;
+}
+.nav li a:hover {
+  color: red;
+}
+.nav li a:active {
+  color: rgb(25, 21, 243);
+}
+.container {
+  display: block;
+     width: 50%;
+    height: 10px;
+  background-color: black;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container img {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+height: 350px;
+width: 600px;
+border: 2px solid white;
+}
+
+.box {
+    color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 20px;
+    text-align:center;
+}
+.head {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head h2{
+ font-size: 90px;
+ text-align: center;
+}
+
+a {
+  font-size: 60px;
+
+}
+
+footer {
+  display: outside;
+  text-align: center;
+  padding: 1px;
+  background-color: grey;
+  color: white;
+  margin: 100px;
+  font-size: 90%;
+  border: 5px solid black;
+}
+li {cursor: pointer;}
+.nav:hover {
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 350px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+text-align: left;
+font-size: 80px;
+margin: 10px;
+}
+.column h2 {
+text-align: center;
+font-size: 30px;
+}
+.column p {
+font-size: 20px;
+}
+h2 {
+text-align: center;
+font-size: 35px;
+}
+h3 {
+text-align: center;
+}
