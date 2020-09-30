@@ -7,19 +7,28 @@ body, div, ul, li {
   vertical-align: baseline;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  font-family: fantasy;
+
 
 }
 body{
   background-color: green;
+  font-family: fantasy;
+  background-image: url("https://i.ibb.co/k4q0wX1/Logo-with-Psychology-symbol-fx1.jpg");
+
 
 }
 .nav {
   background: #000;
-  height: 130px;
+  height: 155px;
   text-align:center;
   border: 7px solid #6bec20fd;
+  padding: 5px;
+  
 }
-.logo {float:left;}
+.logo {
+  float:left;
+}
 .nav li {
   display: inline-block;
   list-style: none;
@@ -48,7 +57,7 @@ nav li a:link {
   color: #6bec20fd;
 }
 .nav li a:hover {
-  color: red;
+  color: rgb(236, 233, 14);
 }
 .nav li a:active {
   color: rgb(25, 21, 243);
@@ -56,9 +65,9 @@ nav li a:link {
 .container {
   display: block;
      width: 50%;
-    height: 10px;
-  background-color: black;
-  margin-top:20px;
+    height: 830px;
+  background-color: #def510;
+  border: solid hsl(101, 46%, 70%);
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,6 +111,8 @@ footer {
   margin: 100px;
   font-size: 90%;
   border: 5px solid black;
+  float: center;
+  margin-top: 800px;
 }
 li {cursor: pointer;}
 .nav:hover {
@@ -130,21 +141,64 @@ li {cursor: pointer;}
   clear: both;
 }
 h1 {
-text-align: left;
+text-align: auto;
 font-size: 80px;
-margin: 10px;
+margin: 8px;
+font-family: fantasy;
+
 }
 .column h2 {
 text-align: center;
 font-size: 30px;
+height: 30px;
 }
 .column p {
 font-size: 20px;
+
 }
 h2 {
 text-align: center;
 font-size: 35px;
+font-family: fantasy;
 }
 h3 {
 text-align: center;
+margin-top: 7px;
+margin-bottom: 0px;
+font-size: 30px;
+font-family: fantasy;
 }
+
+iframe {
+  text-align: center;
+  margin: 60px;
+}
+
+.media {
+ border: 3px solid black;
+ margin: 140px;
+ width: 80px;
+ height: 96;
+ margin-top: 150px;
+}
+
+.ytvideo {
+  float: left;
+  margin-bottom: 15px;
+  width: 690px;
+  height: 550px;
+  color: rgb(251, 251, 29);
+  text-shadow: 4px 2px black;
+}
+
+.song {
+
+  text-align: center;
+  float: right;
+  width: 690px;
+  height: 550px;
+  text-shadow: 4px 2px black;
+
+}
+
+
