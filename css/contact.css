@@ -11,16 +11,24 @@ body, div, ul, li {
   }
   body{
     background-color: green;
-    background-image: url("https://i.ibb.co/k4q0wX1/Logo-with-Psychology-symbol-fx1.jpg");
-
+  font-family: fantasy;
+  background-image: url("https://i.ibb.co/6BsF3b1/Logo-with-Psychology-symbol-Blog-copy2.jpg");
+  margin-top: 20px;
   }
+
+  /* Header with logo and navigation */
   .nav {
     background: #000;
     height: 130px;
     text-align:center;
+    font-size: 90px;
     border: 7px solid #6bec20fd;
+    padding: 5px;
+    mix-blend-mode: darken;
   }
-  .logo {float:left;}
+  .logo {
+  float:left;
+}
   .nav li {
     display: inline-block;
     list-style: none;
@@ -49,45 +57,90 @@ body, div, ul, li {
   color: #6bec20fd;
 }
 .nav li a:hover {
-    color: rgb(236, 233, 14);
+    color: white;
 }
 .nav li a:active {
     color: rgb(25, 21, 243);
 }
-  .container {
-    display: block;
-       width: 100%;
-      height: 350px;
-    background-color: black;
-    margin-top:20px;
-    border: 5px solid white;
-    color: #fff;
-    text-align: center;
+
+/* Contact form */
+.container {
+display: block;
+width: 70%;
+height: 750px;
+background-color: black;
+margin-top:20px;
+margin-left: 250px;
+border: 5px solid black;
+text-align: center;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+* {
+box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+li {cursor: pointer;}
+  .nav:hover {
+    color: white;
   }
 
 
+/* headings */
   a {
     font-size: 60px;
 
   }
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 90px;
+  margin-left: 700px;
+  margin-right: 700px;
    }
 
+
+  
+
+  /* Footer with Social Media Icon Links */
   footer {
     display: outside;
     text-align: center;
     padding: 1px;
-    background-color: grey;
-    color: white;
+    text-shadow: 2px 1px white;
     margin: 100px;
-    font-size: 90%;
+    font-family: fantasy;
+    font-size: 150%;
     border: 5px solid black;
+    float: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: cover;
   }
-  li {cursor: pointer;}
-  .nav:hover {
-    color: white;
-  }
-
 
